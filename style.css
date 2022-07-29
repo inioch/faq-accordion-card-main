@@ -1,0 +1,57 @@
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* ## Colors
+### Primary
+#### Text */
+    --Verydarkdesaturatedblue: hsl(238, 29%, 16%);
+    --Softred: hsl(14, 88%, 65%);
+    /* #### Gradient Background gradient:  */
+    --Softviolet: #af67e9;
+    --Softblue: #6565e7;
+    /* ### Neutral #### Text  */
+    --Verydarkgrayishblue: #4a4b5e;
+    --Darkgrayishblue: #787887;
+    /* #### Dividers */
+    --Lightgrayishblue: hsl(240, 5%, 91%)
+        /*
+## Typography 
+### Body Copy - Font size: 12px 
+### Font - Family: [Kumbh Sans](https: //fonts.google.com/specimen/Kumbh+Sans)
+    - Weights: 400, 700 */
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    height: 100vh;
+    background: linear-gradient(#af67e9, #6565e7);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.bgImg {
+    position: absolute;
+    width: 500px;
+    top: -105px;
+    left: -25px;
+}
+
+.bgDice {
+    position: absolute;
+    width: 150px;
+    top: 130px;
+    left: -40px;
+}
+
+.round {
+    border-radius: 35px;
+}
+
+.hov:hover {
+    color: var(--Softred);
+}
